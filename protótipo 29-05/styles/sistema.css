@@ -1,0 +1,277 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh; 
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #b1b1b1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8d8d8d;
+    border-radius: 5vh;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #858585;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 11vh;
+    display: flex;
+    width: 100%;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 3vw;
+    margin-left: auto;
+}
+
+.logo {
+    height: 8vh;
+}
+
+.text {
+    font-size: 2.5vh;
+}
+
+.back_perfil {
+    background-color: #d3d3d3;
+    margin-left: auto;
+    margin-right: 2vw;
+    display: flex;
+    padding: 1vh;
+    border-radius: 20vh;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.back_perfil:hover {
+    background-color: #a5a5a5;
+}
+
+.perfil {
+    height: 5.5vh;
+}
+
+.menu_perfil {
+    height: 8vh;
+    background-color: #e4e4e4;
+    position: absolute;
+    margin-left: auto;
+    border-radius: 2vh;
+    padding: 1.5vh;
+    margin: 22vh 2vw 0 0;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carrossel {
+    background-color: #5e5e5e;
+    width: 100%;
+    height: 48vh;
+    transition: background-color 0.8s;
+}
+
+.buttons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.prev,
+.next {
+    border-radius: 20vh;
+    background-color: #cccccc;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.prev {
+    margin-right: auto;
+    margin-left: 1.5vw;
+    padding: 1vh 1vw 1vh 0.7vw;
+}
+
+.next {
+    margin-left: auto;
+    margin-right: 1.5vw;
+    padding: 1vh 0.7vw 1vh 1vw;
+}
+
+.prev:hover, .next:hover {
+    background-color: #fff;
+}
+
+.arrow {
+    height: 4vh;
+}
+
+.recentes {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    width: 90%;
+}
+
+.title {
+    font-size: 3.5vh;
+    text-transform: uppercase;
+}
+
+.blocks_recentes {
+    display: flex;
+    margin-top: 3vh;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.left {
+    background-color: #BDBDBD;
+    height: 65vh;
+    width: 27vw;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5vh;
+}
+
+.upper_blocks{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.upper_left {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+}
+
+.wide_block {
+    background-color: #BDBDBD;
+    display: flex;
+    height: 20vh;
+    width: 27vw;
+}
+
+.block {
+    background-color: #BDBDBD;
+    height: 42.5vh;
+    width: 27vw;
+}
+
+.lower_blocks {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.mini_block {
+    background-color: #BDBDBD;
+    display: flex;
+    height: 20vh;
+    width: 15vw;
+}
+
+.categ_blocks {
+    display: flex;
+    margin-top: 3vh;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.categ_block {
+    height: 35vh;
+    width: 20vw;
+    display: flex;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.fade {
+    position: absolute;
+    background-color: #000;
+    height: 6vh;
+    width: 20vw;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.rcp_text {
+    position: absolute;
+    font-size: 3vh;
+    margin: 1vh 0 0 2vw;
+    color: #fff;
+    opacity: 1;
+}
+
+.categ_block:hover .categ_block {
+    transform: scale(1.05);
+}
+
+.categ_block:hover .fade {
+    opacity: 0.6;
+    transform: scale(1.05);   
+}
+
+#scroll_btn {
+    width: 3vw;
+    height: 6vh;
+    margin-right: 1.8vw;
+    background-color: #000;
+    align-self: flex-end;
+    position: fixed;
+    bottom: 3vh;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.footer {
+    margin-top: auto;
+    height: 9vh;
+    display: flex;
+    width: 100%;
+    background-color: #BDBDBD;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+}
