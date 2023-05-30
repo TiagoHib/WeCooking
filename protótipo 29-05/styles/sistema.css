@@ -223,32 +223,24 @@ body {
     display: flex;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+    flex-direction: column;
 }
 
-.fade {
-    position: absolute;
-    background-color: #000;
-    height: 6vh;
-    width: 20vw;
-    opacity: 0;
+
+.rcp_text {
+    font-size: 3vh;
+    margin: 0 0 1vh 1vw;
+    color: #000;
+    opacity: 1;
     transition: all 0.5s ease-in-out;
 }
 
-.rcp_text {
-    position: absolute;
-    font-size: 3vh;
-    margin: 1vh 0 0 2vw;
-    color: #fff;
-    opacity: 1;
+.categ_block:hover {
+    transform: scale(1.03);
 }
 
-.categ_block:hover .categ_block {
-    transform: scale(1.05);
-}
-
-.categ_block:hover .fade {
-    opacity: 0.6;
-    transform: scale(1.05);   
+.categ_block:hover .rcp_text {
+    font-size: 3.3vh
 }
 
 #scroll_btn {
