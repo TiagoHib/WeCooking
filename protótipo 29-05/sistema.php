@@ -38,47 +38,39 @@
             <div class="recentes">
                 <label class="title">Adicionados recentemente</label>
                 <div class="categ_blocks">
-                    <div class="categ_block">
-                        <img src="./assets/rcp.jpg" class="categ_block" />
-                        <div class="fade"></div>
+                    <div class="categ_block">         
                         <div class="rcp_text">Nome da receita</div>
+                        <img src="./assets/rcp.jpg" class="categ_block" />
                     </div>
                     <div class="categ_block">
-                        <img src="./assets/rcp.jpg" class="categ_block" />
-                        <div class="fade"></div>
                         <div class="rcp_text">Nome da receita</div>
+                        <img src="./assets/rcp.jpg" class="categ_block" />
                     </div>
                     <div class="categ_block">
-                        <img src="./assets/rcp.jpg" class="categ_block" />
-                        <div class="fade"></div>
                         <div class="rcp_text">Nome da receita</div>
+                        <img src="./assets/rcp.jpg" class="categ_block" />
                     </div>
                     <div class="categ_block">
-                        <img src="./assets/rcp.jpg" class="categ_block" />
-                        <div class="fade"></div>
                         <div class="rcp_text">Nome da receita</div>
+                        <img src="./assets/rcp.jpg" class="categ_block" />
                     </div>
                 </div>
                 <div class="categ_blocks">
                     <div class="categ_block">
-                        <img src="./assets/rcp.jpg" class="categ_block" />
-                        <div class="fade"></div>
                         <div class="rcp_text">Nome da receita</div>
+                        <img src="./assets/rcp.jpg" class="categ_block" />
                     </div>
                     <div class="categ_block">
-                        <img src="./assets/rcp.jpg" class="categ_block" />
-                        <div class="fade"></div>
                         <div class="rcp_text">Nome da receita</div>
+                        <img src="./assets/rcp.jpg" class="categ_block" />
                     </div>
                     <div class="categ_block">
-                        <img src="./assets/rcp.jpg" class="categ_block" />
-                        <div class="fade"></div>
                         <div class="rcp_text">Nome da receita</div>
+                        <img src="./assets/rcp.jpg" class="categ_block" />
                     </div>
                     <div class="categ_block">
-                        <img src="./assets/rcp.jpg" class="categ_block" />
-                        <div class="fade"></div>
                         <div class="rcp_text">Nome da receita</div>
+                        <img src="./assets/rcp.jpg" class="categ_block" />
                     </div>
                 </div>
             </div>
