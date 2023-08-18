@@ -6,13 +6,12 @@ $allFileNames = "";
 
 if (isset($_FILES["files"]["name"])) {
     $countFiles = count($_FILES['files']['name']);
-
-    var_dump($countFiles);
+    //var_dump($countFiles);
 
     for ($i = 0; $i < $countFiles; $i++) {
         // File name
         $filename = $_FILES['files']['name'][$i];
-        var_dump($filename);
+        //var_dump($filename);
 
         // Location
         $location = "./images/" . $id . "/";
@@ -65,7 +64,7 @@ if (isset($_FILES["files"]["name"])) {
     ;
 }
 
-$sql = "INSERT INTO receita (images) VALUES ('$allFileNames')";
+$sql = "UPDATE receita SET images = '$allFileNames' WHERE id_receita = '$id'";
 if (mysqli_query($conn, $sql)) {
 } else {
     echo "Erro no upload do banco!";
