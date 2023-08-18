@@ -184,6 +184,18 @@
                 formData.append('id', journey_id);
             });
 
+            this.on('success', function () { 
+                var idData = journey_id
+                console.log(idData)
+
+                $.ajax({
+                    type: 'POST',
+                    url: './php/get_form_data.php',
+                    data: {id: idData},
+                    cache: false,
+                });
+            })
+
             // Called when a file is added to the queue
             // Receives `file`
             this.on("addedfile", file => {
