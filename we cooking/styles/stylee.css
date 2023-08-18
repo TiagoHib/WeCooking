@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;   
+}
+
+.screen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFE3DA;
+    flex-direction: row;
+    padding: 6vh 3.5vw;
+    border-radius: 1vh;
+    gap: 6vh;
+}
+
+
+.login_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+
+.logo {
+    height: 25vh;
+}
+
+.desc {
+    font-size: 3.2vh;
+}
+
+.center {
+    background-color: #00000060;
+    width: 0.1vw;
+    height: 36vh;
+}
+
+.login_right {
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+}
+
+label {
+    display: flex;
+    align-self: flex-start;
+    font-size: 3.5vh;
+    margin-bottom: 2vh;
+}
+
+.info {
+    width: 90%;
+    margin-bottom: 4vh;
+}
+
+form {
+    width: 22vw
+}
+
+.input {
+    width: 100%;
+    border: none;
+    border-radius: 0.5vh;
+    padding: 1vh 1vw;
+    background: #ffffff;
+    color: #000000;
+    font-size: 1.8vh;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 2vh;
+}
+
+input:focus {
+    border: 0.1vh solid #00000050;
+}
+
+input::placeholder{
+    color: #8b8b8b;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.link1, .link2 {
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+}
+
+.link1:hover, .link2:hover {
+    text-decoration: underline;
+}
+
+.link1 {
+    margin-right: auto;
+}
+
+.link2 {
+    margin-left: auto;
+}
+
+.button {
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn_login{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.2vh;
+    outline: none;
+    border: none;
+    background: #ffffff;
+    cursor: pointer;
+    padding: 0.5vh 2vw;
+    border-radius: 20vh;
+}
