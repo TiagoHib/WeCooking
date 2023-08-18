@@ -15,7 +15,7 @@
     <div class="screen">
         <div class="header">
             <div class="center">
-                <img src="../login/logo.png" class="logo">
+                <img src="./assets/logo.png" class="logo">
                 <label class="text">Categorias <i class="fa-solid fa-chevron-down"></i></label>
 
                 <label class="text">Receitas <i class="fa-solid fa-chevron-down"></i></label>
